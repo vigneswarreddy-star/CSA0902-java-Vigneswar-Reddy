@@ -1,0 +1,2 @@
+Load FAILED and was rolled back: (conn=5) Duplicate entry 'P000001' for key 'PRIMARY'
+Rows in bus_pass = 20000 (nothing half-migrated)

@@ -1,0 +1,5 @@
+records	file_bytes	find_first_ms(median)	find_last_ms(median)	find_missing_ms(median)
+1000	38668	0.129	2.329	1.867
+10000	396644	0.116	14.713	14.584
+100000	4066395	0.146	32.635	26.588
+ALT q=1000 n=100000: scan_each_time_ms=6876 | hashmap_load_ms=124 + lookups_ms=1 hits=1000 | hashmap_entries=100000

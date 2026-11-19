@@ -1,0 +1,7 @@
+n	format	save_ms	load_ms	bytes
+1000	serialization	74	78	35020	(loaded 1000)
+1000	CSV	26	6	24455	(loaded 1000)
+10000	serialization	50	78	359021	(loaded 10000)
+10000	CSV	26	10	255156	(loaded 10000)
+100000	serialization	291	350	3689022	(loaded 100000)
+100000	CSV	112	54	2652157	(loaded 100000)

@@ -1,0 +1,9 @@
+Column metadata (read from ResultSetMetaData):
+  pass_id   VARCHAR        nullable=0
+  reg_no    VARCHAR        nullable=0
+  name      VARCHAR        nullable=0
+  route_no  INTEGER        nullable=0
+  amount    DECIMAL        nullable=0
+Statement: rows in table = 10, rows matching input = 10 of 10  -> CORRECT
+PreparedStatement: rows in table = 10, rows matching input = 10 of 10  -> CORRECT
+Batch: rows in table = 10, rows matching input = 10 of 10  -> CORRECT

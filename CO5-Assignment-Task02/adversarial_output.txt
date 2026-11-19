@@ -1,0 +1,14 @@
+=== Part 1: login with crafted input ===
+input_id | input_pwd | description | UnsafeLogin | SafeLogin
+[admin] | [secret123] | correct login (both must accept) | ACCEPTED | ACCEPTED
+[admin] | [wrong] | wrong password (both must reject) | rejected | rejected
+[admin'-- ] | [anything] | comment attack: rest of WHERE clause removed | ACCEPTED | rejected
+[x' OR '1'='1] | [anything] | tautology attack: WHERE becomes always true | rejected | rejected
+[x' OR '1'='1' -- ] | [] | tautology with empty password | ACCEPTED | rejected
+
+=== Part 2: damaged bus-pass file ===
+find(P2001) = [P2001, 192311001, Arun, 12, 4500.0]
+find(P2002) = null
+find(P2003) = [P2003, 192311003, Divya, 7, abc]
+find(P2005) = null
+find(P2006) = [P2006, 192311006, Meena, 9, 3100.0]

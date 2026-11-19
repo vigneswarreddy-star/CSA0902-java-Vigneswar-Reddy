@@ -1,0 +1,4 @@
+size_MB	lines	unbuffered_ms	unbuffered_read_calls	buffered_ms	buffered_read_calls	file_bytes
+1	25989	662	1048595	6	129	1048594
+10	253666	3148	10485791	5	1281	10485790
+50	1245915	15583	52428827	26	6401	52428826

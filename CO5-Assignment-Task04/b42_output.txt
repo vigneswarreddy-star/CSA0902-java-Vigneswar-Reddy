@@ -1,0 +1,14 @@
+Database product : MariaDB 10.11.14-MariaDB-0ubuntu0.24.04.1
+Driver           : MariaDB Connector/J 2.7.6 (JDBC 4.2)
+Connected URL    : jdbc:mysql://localhost:3306/transport_test
+User             : root
+Identifier quote : [`]
+Tables:
+  bus_pass
+      pass_id    VARCHAR        size=10 nullable=NO
+      reg_no     VARCHAR        size=20 nullable=NO
+      name       VARCHAR        size=100 nullable=NO
+      route_no   INT            size=10 nullable=NO
+      amount     DECIMAL        size=10 nullable=NO
+      primary key: pass_id
+  users

@@ -1,0 +1,4 @@
+  (failure: For input string: "not-a-number")
+AUTO-COMMIT ON : failed at row 5001, took 945 ms, rows left in table = 5000 (partial load, cannot be undone)
+TRANSACTION    : failed (NumberFormatException) after 332 ms, rows left in table = 0 (all rows rolled back)
+CONTROL (no bad row): loaded 10000 rows in one transaction in 476 ms; rows in table = 10000

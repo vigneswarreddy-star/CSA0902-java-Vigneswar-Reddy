@@ -1,0 +1,8 @@
+Migration of data/passes_migrate.txt: read 20006 lines, valid 20000, rejected 6
+  REJECTED line 3000: wrong number of fields (4)  | P003000,192300001,Damaged,7
+  REJECTED line 6001: amount is not a number  | P006000,192300002,Name,7,abc
+  REJECTED line 9002: register number must be 9 digits  | P009000,1923,Short Reg,7,3000.0
+  REJECTED line 12003: name is empty  | P012000,192300003,,7,3000.0
+  REJECTED line 15004: wrong number of fields (1)  | 
+  REJECTED line 18005: route number out of range (1-99)  | P018000,192300004,Route,150,3000.0
+Loaded 20000 rows in one transaction in 892 ms. Rows in bus_pass = 20000
