@@ -1,0 +1,25 @@
+size,operation,ArrayList_ns_per_op,LinkedList_ns_per_op,ArrayDeque_ns_per_op
+1000,add at end,506.91,83.96,73.53
+1000,insert at front,494.44,235.49,69.63
+1000,insert in middle,126.67,1211.86,
+1000,remove at front,73.95,172.99,107.17
+1000,remove in middle,99.24,550.79,
+1000,get k-th,138.55,517.62,
+1000,iterate (per elem),94.65,137.62,111.82
+1000,queue add+remove front,173.94,132.26,117.99
+10000,add at end,78.20,100.55,98.75
+10000,insert at front,695.58,102.62,80.52
+10000,insert in middle,341.64,9605.22,
+10000,remove at front,475.95,47.50,44.93
+10000,remove in middle,292.23,8939.98,
+10000,get k-th,69.51,4637.60,
+10000,iterate (per elem),69.37,72.78,66.90
+10000,queue add+remove front,416.40,127.92,101.97
+100000,add at end,68.57,62.78,63.05
+100000,insert at front,8967.79,69.37,64.37
+100000,insert in middle,4581.85,100490.69,
+100000,remove at front,10663.25,46.88,39.07
+100000,remove in middle,4630.94,116102.25,
+100000,get k-th,105.37,50963.95,
+100000,iterate (per elem),5.57,8.90,6.82
+100000,queue add+remove front,8989.42,97.30,97.30

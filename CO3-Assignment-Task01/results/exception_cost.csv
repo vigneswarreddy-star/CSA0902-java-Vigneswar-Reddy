@@ -1,0 +1,7 @@
+variant,depth,ns_per_call,bytes_per_call
+error code (-1),1,5.78,0
+exception with stack trace,1,726.77,728
+exception, stack trace off,1,22.65,40
+error code (-1),20,26.95,0
+exception with stack trace,20,1704.18,728
+exception, stack trace off,20,832.50,40

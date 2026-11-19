@@ -1,0 +1,6 @@
+store1.csv 3470
+store2.csv 5470
+store3.csv 7470
+store4.csv 9470
+store5.csv 11470
+TOTAL 37350

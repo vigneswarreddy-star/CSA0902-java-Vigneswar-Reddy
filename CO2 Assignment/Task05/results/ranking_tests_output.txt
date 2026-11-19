@@ -1,0 +1,12 @@
+(A) tie data, correct comparator
+    expected: [Eagles(9,6), Wolves(9,6), Bisons(9,4), Panthers(9,4), Owls(6,3), Cobras(6,1), Falcons(6,1), Tigers(3,0)]
+    observed: [Eagles(9,6), Wolves(9,6), Bisons(9,4), Panthers(9,4), Owls(6,3), Cobras(6,1), Falcons(6,1), Tigers(3,0)]
+    result:   PASS
+
+(B) overflow data (Alpha 2e9, Gamma 0, Beta -2e9)
+    correct:  [Alpha(2000000000,0), Gamma(0,0), Beta(-2000000000,0)]
+    faulty subtraction comparator: [Gamma(0,0), Beta(-2000000000,0), Alpha(2000000000,0)]
+    faulty ignores tie-breakers:  [Panthers(9,4), Wolves(9,6), Bisons(9,4), Eagles(9,6), Falcons(6,1), Owls(6,3), Cobras(6,1), Tigers(3,0)]
+
+(C) 200 teams with many equal points, comparator never returns 0
+    sort threw IllegalArgumentException: Comparison method violates its general contract!

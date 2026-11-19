@@ -1,0 +1,17 @@
+Correctness (2000 teams with ties): identical rankings = true
+
+workload     n        design          comparisons    ms (mean)
+read-heavy   1000     Original          1,738,400         54.5
+read-heavy   1000     Redesign              8,581          0.4
+live         1000     Original          5,653,366        122.6
+live         1000     Redesign              5,175          0.2
+read-heavy   5000     Original         11,055,600        299.5
+read-heavy   5000     Redesign             54,506          2.2
+live         5000     Original         29,164,981        700.0
+live         5000     Redesign              6,214          0.3
+read-heavy   20000    Original         52,177,400       1447.7
+read-heavy   20000    Redesign            257,987         11.5
+live         20000    Original        132,175,476       3197.8
+live         20000    Redesign              7,192          0.6
+
+Raw results written to results/redesign_bench.csv (sink=111454500)

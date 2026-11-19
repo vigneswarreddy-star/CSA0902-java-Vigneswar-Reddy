@@ -1,0 +1,10 @@
+workload,approach,mean_ms,stddev_ms,allocated_MB,retained_MB,est_intermediate_strings
+W1 short 10 fields x100000,String (+),63.105,64.294,99.945,15.651,2000000
+W1 short 10 fields x100000,StringBuilder,28.274,7.242,49.591,15.640,100000
+W1 short 10 fields x100000,StringBuffer,31.975,11.511,50.354,15.640,100000
+W2 10000 tickets x 50 fields,String (+),35.495,1.441,207.102,7.858,1000000
+W2 10000 tickets x 50 fields,StringBuilder,13.787,0.368,30.925,7.846,10000
+W2 10000 tickets x 50 fields,StringBuffer,16.119,3.277,31.001,7.846,10000
+W3 50 tickets x 1000 fields,String (+),77.860,28.483,347.899,0.698,100000
+W3 50 tickets x 1000 fields,StringBuilder,0.955,0.296,2.464,0.698,50
+W3 50 tickets x 1000 fields,StringBuffer,0.850,0.033,2.464,0.698,50

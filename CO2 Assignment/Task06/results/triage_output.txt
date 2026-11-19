@@ -1,0 +1,7 @@
+Meena(S1) Kumar(S1) Lata(S2) Ravi(S3) John(S3) Asha(S5)
+
+8-patient check
+  raw PriorityQueue (heap array, NOT treatment order): [Meena(S1), Kumar(S1), Lata(S2), Nita(S4), Ravi(S3), John(S3), Dev(S2), Asha(S5)]
+  waiting list in treatment order: Meena(S1) Kumar(S1) Lata(S2) Dev(S2) Ravi(S3) John(S3) Nita(S4) Asha(S5)
+  expected:                        Meena(S1) Kumar(S1) Lata(S2) Dev(S2) Ravi(S3) John(S3) Nita(S4) Asha(S5)
+  result: PASS

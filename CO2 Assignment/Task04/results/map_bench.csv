@@ -1,0 +1,13 @@
+size,structure,build_ms,lookups_100k_ms,ns_per_lookup,codeorder_report_ms,codeorder_sorted,addorder_report_ms,addorder_matches_insertion
+1000,HashMap,0.449,9.810,98.1,0.964,true,0.199,false
+1000,TreeMap,1.029,28.834,288.3,0.197,true,0.151,true
+1000,LinkedHashMap,0.378,7.750,77.5,0.261,false,0.257,true
+1000,SortedArray+binarySearch,,30.160,301.6,,true,1.913,
+10000,HashMap,3.997,7.677,76.8,3.122,true,1.635,false
+10000,TreeMap,4.459,28.567,285.7,0.751,true,0.335,true
+10000,LinkedHashMap,2.039,5.761,57.6,0.328,false,0.284,true
+10000,SortedArray+binarySearch,,31.266,312.7,,true,0.880,
+100000,HashMap,36.896,6.232,62.3,23.032,true,4.981,false
+100000,TreeMap,79.899,71.470,714.7,14.842,true,2.277,true
+100000,LinkedHashMap,28.712,5.770,57.7,12.321,false,10.515,true
+100000,SortedArray+binarySearch,,52.640,526.4,,true,2.281,

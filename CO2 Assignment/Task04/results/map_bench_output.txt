@@ -1,0 +1,17 @@
+size     structure          build ms 100k lookup ms    ns/lookup    code-order ms    sorted?     add-order ms  insert-ord?
+1000     HashMap                0.45           9.81         98.1             0.96       true             0.20        false
+1000     TreeMap                1.03          28.83        288.3             0.20       true             0.15         true
+1000     LinkedHashMap          0.38           7.75         77.5             0.26      false             0.26         true
+1000     SortedArray+bs            -          30.16        301.6         (sorted)       true             1.91            -
+
+10000    HashMap                4.00           7.68         76.8             3.12       true             1.64        false
+10000    TreeMap                4.46          28.57        285.7             0.75       true             0.34         true
+10000    LinkedHashMap          2.04           5.76         57.6             0.33      false             0.28         true
+10000    SortedArray+bs            -          31.27        312.7         (sorted)       true             0.88            -
+
+100000   HashMap               36.90           6.23         62.3            23.03       true             4.98        false
+100000   TreeMap               79.90          71.47        714.7            14.84       true             2.28         true
+100000   LinkedHashMap         28.71           5.77         57.7            12.32      false            10.52         true
+100000   SortedArray+bs            -          52.64        526.4         (sorted)       true             2.28            -
+
+Raw results written to results/map_bench.csv (sink=84798000)

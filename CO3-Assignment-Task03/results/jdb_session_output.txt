@@ -1,0 +1,28 @@
+Initializing jdb ...
+> Deferring breakpoint ReportManualNoFinally:32.
+It will be set after the class is loaded.
+> run ReportManualNoFinally data_fail results/jdb_target.txt
+254.*|api.anthropic.com|api-staging.anthropic.com|api-pr-preview.anthropic.com|mcp-proxy.anthropSet deferred uncaught java.lang.Throwable
+ic.com|mcp-proxy-staging.anthropic.com|registry.npmjs.org|jsr.io|npm.jsr.io|pypi.org|files.pythonhosted.org|index.crates.io|proxy.golang.org|host.docker.internal|10.*|172> .16.*|172.17.*|172.18.*|172.19.*|172.20.*|172.21.*|172.22.*|172.23.*|172.24.*|172.25.*|172.26.*|172.27.*|172.28.*|172.29.*|172.30.*|172.31.*|192.168.*|100.64.0.0/10|*.svc.cluster.local|*.svc.cluster.local -Djdk.http.auth.tunneling.disabledSchemes= -Djdk.http.auth.proxying.disabledSchemes=
+
+VM Started: Set deferred breakpoint ReportManualNoFinally:32
+Nov 17, 2026 12:48:23 PM ReportManualNoFinally run
+SEVERE: FAI
+Breakpoint hit: LED on store3.csv: bad amount at data_fail/store3.csv line 7: "12O0"
+"thread=main", ReportManualNoFinally.run(), line=32 bci=133
+32                        return 1;                                         // reader still open here
+
+main[1] Method arguments:
+dir = instance of sun.nio.fs.UnixPath(id=1281)
+out = instance of sun.nio.fs.UnixPath(id=1282)
+Local variables:
+totals = instance of java.util.TreeMap(id=1283)
+files = instance of java.util.stream.ReferencePipeline$Head(id=1284)
+f = instance of sun.nio.fs.UnixPath(id=1285)
+reader = instance of java.io.BufferedReader(id=1286)
+e = instance of java.io.IOException(id=1287)
+main[1]  reader = "java.io.BufferedReader@361cfe4f"
+main[1]  f = "data_fail/store3.csv"
+main[1] > status=1 openFDs before=5 after=6 leaked=1
+
+The application exited

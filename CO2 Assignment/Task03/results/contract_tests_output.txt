@@ -1,0 +1,16 @@
+TEST 1: 3 distinct students, each scanned once
+  Predicted size: 3 (no duplicates exist, so equality never needs to match)
+  Observed size (fixed class): 3
+
+TEST 2: A scanned 3 times, B scanned 2 times (5 scans, 2 students)
+  Predicted size with broken class: 5 (no hashCode, so every object has its own identity hash and equals() is never consulted)
+  Observed size (broken, no hashCode): 5
+  Predicted size with fixed class: 2
+  Observed size (fixed): 2
+
+TEST 3: mutate regNo after the object is inserted into a HashSet
+  Predicted: size stays 1, but contains(object) is false because its bucket is stale
+  Observed size: 1
+  Observed contains(same object): false
+  Observed contains(new object with new regNo): false
+  Observed iteration still shows the object: 192311999

@@ -1,0 +1,12 @@
+(1) order of closing
+open A
+open B
+body runs
+close B
+close A
+
+(2) body fails AND close fails -> suppressed exception
+open C
+close C
+primary: body failed
+suppressed: close failed for C

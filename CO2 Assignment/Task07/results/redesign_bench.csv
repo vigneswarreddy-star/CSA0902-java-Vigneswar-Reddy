@@ -1,0 +1,13 @@
+workload,n,design,comparisons,ms_mean
+read-heavy,1000,Original,1738400,54.5
+read-heavy,1000,Redesign,8581,0.4
+live,1000,Original,5653366,122.6
+live,1000,Redesign,5175,0.2
+read-heavy,5000,Original,11055600,299.5
+read-heavy,5000,Redesign,54506,2.2
+live,5000,Original,29164981,700.0
+live,5000,Redesign,6214,0.3
+read-heavy,20000,Original,52177400,1447.7
+read-heavy,20000,Redesign,257987,11.5
+live,20000,Original,132175476,3197.8
+live,20000,Redesign,7192,0.6

@@ -1,0 +1,27 @@
+TEST T1 valid  input account="1001" amount="200" card=cards.txt
+    finally: card reader closed
+    OK: dispensed 200, balance now 300
+TEST T2 letters in amount  input account="1001" amount="abc" card=cards.txt
+    finally: card reader closed
+    caught NumberFormatException (unchecked): For input string: "abc"
+TEST T3 negative amount  input account="1001" amount="-50" card=cards.txt
+    finally: card reader closed
+    caught InvalidAmountException (unchecked): Amount must be positive: -50
+TEST T4 zero amount  input account="1001" amount="0" card=cards.txt
+    finally: card reader closed
+    caught InvalidAmountException (unchecked): Amount must be positive: 0
+TEST T5 more than balance  input account="1001" amount="900" card=cards.txt
+    finally: card reader closed
+    caught InsufficientBalanceException (checked): Balance 500 is less than 900
+TEST T6 unknown account  input account="9999" amount="10" card=cards.txt
+    finally: card reader closed
+    caught AccountNotFoundException (checked): No account 9999
+TEST T7 letters in account  input account="12x" amount="10" card=cards.txt
+    finally: card reader closed
+    caught NumberFormatException (unchecked): For input string: "12x"
+TEST T8 missing card-reader file  input account="1001" amount="10" card=no_such_card_reader_file.txt
+    finally: no card reader was opened
+    caught NoSuchFileException (checked): card file missing: no_such_card_reader_file.txt
+TEST T9 corrupt card file  input account="1002" amount="10" card=cards_corrupt.txt
+    finally: card reader closed
+    caught NumberFormatException (unchecked): For input string: "abc"

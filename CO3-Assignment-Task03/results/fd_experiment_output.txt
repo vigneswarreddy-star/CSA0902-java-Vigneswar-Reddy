@@ -1,0 +1,22 @@
+Created data_ok/ and data_fail/
+== ReportManualNoFinally on data_ok
+status=0 openFDs before=4 after=4 leaked=0
+== ReportManualNoFinally on data_fail
+Nov 17, 2026 12:47:57 PM ReportManualNoFinally run
+SEVERE: FAILED on store3.csv: bad amount at data_fail/store3.csv line 7: "12O0"
+status=1 openFDs before=4 after=5 leaked=1
+== ReportManual on data_ok
+status=0 openFDs before=4 after=4 leaked=0
+== ReportManual on data_fail
+Nov 17, 2026 12:47:58 PM ReportManual run
+SEVERE: FAILED on store3.csv: bad amount at data_fail/store3.csv line 7: "12O0"
+status=1 openFDs before=4 after=4 leaked=0
+== ReportTwr on data_ok
+status=0 openFDs before=4 after=4 leaked=0
+== ReportTwr on data_fail
+Nov 17, 2026 12:47:58 PM ReportTwr run
+SEVERE: FAILED on store3.csv: bad amount at data_fail/store3.csv line 7: "12O0"
+status=1 openFDs before=4 after=4 leaked=0
+== same report for clean input?
+ReportManual identical to version 1
+ReportTwr identical to version 1

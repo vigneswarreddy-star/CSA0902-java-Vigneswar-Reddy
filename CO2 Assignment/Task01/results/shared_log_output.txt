@@ -1,0 +1,18 @@
+Run 1
+Exception in thread "Thread-0" java.lang.ArrayIndexOutOfBoundsException: arraycopy: last destination index 4607 out of bounds for byte[4606]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at java.base/java.lang.String.getBytes(String.java:4715)
+	at java.base/java.lang.AbstractStringBuilder.putStringAt(AbstractStringBuilder.java:1753)
+	at java.base/java.lang.AbstractStringBuilder.append(AbstractStringBuilder.java:593)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:179)
+	at SharedLogDemo$1.append(SharedLogDemo.java:37)
+	at SharedLogDemo.lambda$run$0(SharedLogDemo.java:14)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+StringBuilder  expected=400000 actual=287222 lost=112778 time=26 ms
+StringBuffer   expected=400000 actual=400000 lost=0 time=71 ms
+Run 2
+StringBuilder  expected=400000 actual=380313 lost=19687 time=6 ms
+StringBuffer   expected=400000 actual=400000 lost=0 time=8 ms
+Run 3
+StringBuilder  expected=400000 actual=358379 lost=41621 time=5 ms
+StringBuffer   expected=400000 actual=400000 lost=0 time=32 ms

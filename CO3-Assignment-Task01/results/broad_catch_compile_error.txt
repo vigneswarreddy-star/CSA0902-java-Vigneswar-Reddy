@@ -1,0 +1,4 @@
+ATMBroadCatchError.java:8: error: exception NumberFormatException has already been caught
+        } catch (NumberFormatException e) {        // narrower catch after broader one -> compile error
+          ^
+1 error

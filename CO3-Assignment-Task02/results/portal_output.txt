@@ -1,0 +1,23 @@
+--- Scenario 1: normal submission
+Saved answer01.pdf
+[controller] accepted answer01.pdf
+--- Scenario 2: student not registered
+[controller] student sees: S9 is not registered for CS101
+--- Scenario 3: file too large (storage layer)
+[controller] student sees: Could not store answer03.pdf | root cause: IOException: Disk quota exceeded
+--- Scenario 4: window closed
+[controller] student sees: Exam window closed for CS101
+
+--- Full chained stack trace for the storage failure
+SubmissionStorageException: Could not store answer05.pdf
+	at Storage.save(StorageDemo.java:21)
+	at ExamService.submit(PortalDemo.java:28)
+	at PortalDemo.main(PortalDemo.java:75)
+Caused by: java.io.IOException: Disk quota exceeded
+	at Storage.save(StorageDemo.java:17)
+	... 2 more
+
+--- Same failure rethrown WITHOUT its cause
+ExamException: Could not store answer06.pdf
+	at PortalDemo.main(PortalDemo.java:85)
+getCause() = null

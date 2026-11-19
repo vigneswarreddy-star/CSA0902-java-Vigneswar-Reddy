@@ -1,0 +1,13 @@
+Growth (mean ns per operation; 3 runs after 1 warm-up)
+size n        admit ns/op    serve ns/op
+1000                677.5          548.2
+10000               301.2          250.7
+100000               88.2          382.6
+1000000             198.1          673.1
+
+Starvation simulation: 1 severe patient (S5) arrives at t=0.
+From t=0 to t=999, two S1 patients arrive per tick and one patient is served per tick.
+Strict severity rule:
+  severity-5 patient served at tick 2000
+Deadline rule (arrival + severity * 30 ticks):
+  severity-5 patient served at tick 240
