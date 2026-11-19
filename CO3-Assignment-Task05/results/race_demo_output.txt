@@ -1,0 +1,2 @@
+mode gate only: trials=200, trials with double booking=0, max seats sold in one trial=10, mean seats sold=10.000
+mode gate+yield: trials=200, trials with double booking=46, max seats sold in one trial=16, mean seats sold=10.345

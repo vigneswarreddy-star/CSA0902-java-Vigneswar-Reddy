@@ -1,0 +1,2 @@
+counter size range seen: min=0 max=5
+Sum of tokens collected: 210 (expected 210)

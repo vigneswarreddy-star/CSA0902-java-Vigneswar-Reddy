@@ -1,0 +1,4 @@
+== sleep inside synchronized
+  sleeper done, still held the lock
+  other got the lock after 449 ms
+== wait(): notifier got the lock after 0 ms while waiter waits

@@ -1,0 +1,11 @@
+Rows in database: 100053
+  run 1: rows in model = 100053
+  run 2: rows in model = 100053
+  run 3: rows in model = 100053
+  run 4: rows in model = 100053
+  run 5: rows in model = 100053
+Load ALL rows into table model (ms), 5 runs: [570, 409, 376, 388, 395]  median = 395
+Load first page of 50 (ms), 5 runs:          [157, 168, 170, 142, 161]  median = 161
+Load last page (OFFSET near end) (ms):        [181, 177, 179, 177, 173]  median = 177
+Rows in model (memory test): 100053
+Heap added by full table model (MB, approx): 34

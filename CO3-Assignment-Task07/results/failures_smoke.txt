@@ -1,0 +1,250 @@
+score_00007.txt OUT_OF_RANGE score 150
+score_00050.txt CORRUPT not a number: "n/a"
+score_00100.txt MISSING file not found
+score_00150.txt CORRUPT not a number: "n/a"
+score_00200.txt MISSING file not found
+score_00207.txt OUT_OF_RANGE score 150
+score_00250.txt CORRUPT not a number: "n/a"
+score_00300.txt MISSING file not found
+score_00350.txt CORRUPT not a number: "n/a"
+score_00400.txt MISSING file not found
+score_00407.txt OUT_OF_RANGE score 150
+score_00450.txt CORRUPT not a number: "n/a"
+score_00500.txt MISSING file not found
+score_00550.txt CORRUPT not a number: "n/a"
+score_00600.txt MISSING file not found
+score_00607.txt OUT_OF_RANGE score 150
+score_00650.txt CORRUPT not a number: "n/a"
+score_00700.txt MISSING file not found
+score_00750.txt CORRUPT not a number: "n/a"
+score_00800.txt MISSING file not found
+score_00807.txt OUT_OF_RANGE score 150
+score_00850.txt CORRUPT not a number: "n/a"
+score_00900.txt MISSING file not found
+score_00950.txt CORRUPT not a number: "n/a"
+score_01000.txt MISSING file not found
+score_01007.txt OUT_OF_RANGE score 150
+score_01050.txt CORRUPT not a number: "n/a"
+score_01100.txt MISSING file not found
+score_01150.txt CORRUPT not a number: "n/a"
+score_01200.txt MISSING file not found
+score_01207.txt OUT_OF_RANGE score 150
+score_01250.txt CORRUPT not a number: "n/a"
+score_01300.txt MISSING file not found
+score_01350.txt CORRUPT not a number: "n/a"
+score_01400.txt MISSING file not found
+score_01407.txt OUT_OF_RANGE score 150
+score_01450.txt CORRUPT not a number: "n/a"
+score_01500.txt MISSING file not found
+score_01550.txt CORRUPT not a number: "n/a"
+score_01600.txt MISSING file not found
+score_01607.txt OUT_OF_RANGE score 150
+score_01650.txt CORRUPT not a number: "n/a"
+score_01700.txt MISSING file not found
+score_01750.txt CORRUPT not a number: "n/a"
+score_01800.txt MISSING file not found
+score_01807.txt OUT_OF_RANGE score 150
+score_01850.txt CORRUPT not a number: "n/a"
+score_01900.txt MISSING file not found
+score_01950.txt CORRUPT not a number: "n/a"
+score_02000.txt MISSING file not found
+score_02007.txt OUT_OF_RANGE score 150
+score_02050.txt CORRUPT not a number: "n/a"
+score_02100.txt MISSING file not found
+score_02150.txt CORRUPT not a number: "n/a"
+score_02200.txt MISSING file not found
+score_02207.txt OUT_OF_RANGE score 150
+score_02250.txt CORRUPT not a number: "n/a"
+score_02300.txt MISSING file not found
+score_02350.txt CORRUPT not a number: "n/a"
+score_02400.txt MISSING file not found
+score_02407.txt OUT_OF_RANGE score 150
+score_02450.txt CORRUPT not a number: "n/a"
+score_02500.txt MISSING file not found
+score_02550.txt CORRUPT not a number: "n/a"
+score_02600.txt MISSING file not found
+score_02607.txt OUT_OF_RANGE score 150
+score_02650.txt CORRUPT not a number: "n/a"
+score_02700.txt MISSING file not found
+score_02750.txt CORRUPT not a number: "n/a"
+score_02800.txt MISSING file not found
+score_02807.txt OUT_OF_RANGE score 150
+score_02850.txt CORRUPT not a number: "n/a"
+score_02900.txt MISSING file not found
+score_02950.txt CORRUPT not a number: "n/a"
+score_03000.txt MISSING file not found
+score_03007.txt OUT_OF_RANGE score 150
+score_03050.txt CORRUPT not a number: "n/a"
+score_03100.txt MISSING file not found
+score_03150.txt CORRUPT not a number: "n/a"
+score_03200.txt MISSING file not found
+score_03207.txt OUT_OF_RANGE score 150
+score_03250.txt CORRUPT not a number: "n/a"
+score_03300.txt MISSING file not found
+score_03350.txt CORRUPT not a number: "n/a"
+score_03400.txt MISSING file not found
+score_03407.txt OUT_OF_RANGE score 150
+score_03450.txt CORRUPT not a number: "n/a"
+score_03500.txt MISSING file not found
+score_03550.txt CORRUPT not a number: "n/a"
+score_03600.txt MISSING file not found
+score_03607.txt OUT_OF_RANGE score 150
+score_03650.txt CORRUPT not a number: "n/a"
+score_03700.txt MISSING file not found
+score_03750.txt CORRUPT not a number: "n/a"
+score_03800.txt MISSING file not found
+score_03807.txt OUT_OF_RANGE score 150
+score_03850.txt CORRUPT not a number: "n/a"
+score_03900.txt MISSING file not found
+score_03950.txt CORRUPT not a number: "n/a"
+score_04000.txt MISSING file not found
+score_04007.txt OUT_OF_RANGE score 150
+score_04050.txt CORRUPT not a number: "n/a"
+score_04100.txt MISSING file not found
+score_04150.txt CORRUPT not a number: "n/a"
+score_04200.txt MISSING file not found
+score_04207.txt OUT_OF_RANGE score 150
+score_04250.txt CORRUPT not a number: "n/a"
+score_04300.txt MISSING file not found
+score_04350.txt CORRUPT not a number: "n/a"
+score_04400.txt MISSING file not found
+score_04407.txt OUT_OF_RANGE score 150
+score_04450.txt CORRUPT not a number: "n/a"
+score_04500.txt MISSING file not found
+score_04550.txt CORRUPT not a number: "n/a"
+score_04600.txt MISSING file not found
+score_04607.txt OUT_OF_RANGE score 150
+score_04650.txt CORRUPT not a number: "n/a"
+score_04700.txt MISSING file not found
+score_04750.txt CORRUPT not a number: "n/a"
+score_04800.txt MISSING file not found
+score_04807.txt OUT_OF_RANGE score 150
+score_04850.txt CORRUPT not a number: "n/a"
+score_04900.txt MISSING file not found
+score_04950.txt CORRUPT not a number: "n/a"
+score_05000.txt MISSING file not found
+score_05007.txt OUT_OF_RANGE score 150
+score_05050.txt CORRUPT not a number: "n/a"
+score_05100.txt MISSING file not found
+score_05150.txt CORRUPT not a number: "n/a"
+score_05200.txt MISSING file not found
+score_05207.txt OUT_OF_RANGE score 150
+score_05250.txt CORRUPT not a number: "n/a"
+score_05300.txt MISSING file not found
+score_05350.txt CORRUPT not a number: "n/a"
+score_05400.txt MISSING file not found
+score_05407.txt OUT_OF_RANGE score 150
+score_05450.txt CORRUPT not a number: "n/a"
+score_05500.txt MISSING file not found
+score_05550.txt CORRUPT not a number: "n/a"
+score_05600.txt MISSING file not found
+score_05607.txt OUT_OF_RANGE score 150
+score_05650.txt CORRUPT not a number: "n/a"
+score_05700.txt MISSING file not found
+score_05750.txt CORRUPT not a number: "n/a"
+score_05800.txt MISSING file not found
+score_05807.txt OUT_OF_RANGE score 150
+score_05850.txt CORRUPT not a number: "n/a"
+score_05900.txt MISSING file not found
+score_05950.txt CORRUPT not a number: "n/a"
+score_06000.txt MISSING file not found
+score_06007.txt OUT_OF_RANGE score 150
+score_06050.txt CORRUPT not a number: "n/a"
+score_06100.txt MISSING file not found
+score_06150.txt CORRUPT not a number: "n/a"
+score_06200.txt MISSING file not found
+score_06207.txt OUT_OF_RANGE score 150
+score_06250.txt CORRUPT not a number: "n/a"
+score_06300.txt MISSING file not found
+score_06350.txt CORRUPT not a number: "n/a"
+score_06400.txt MISSING file not found
+score_06407.txt OUT_OF_RANGE score 150
+score_06450.txt CORRUPT not a number: "n/a"
+score_06500.txt MISSING file not found
+score_06550.txt CORRUPT not a number: "n/a"
+score_06600.txt MISSING file not found
+score_06607.txt OUT_OF_RANGE score 150
+score_06650.txt CORRUPT not a number: "n/a"
+score_06700.txt MISSING file not found
+score_06750.txt CORRUPT not a number: "n/a"
+score_06800.txt MISSING file not found
+score_06807.txt OUT_OF_RANGE score 150
+score_06850.txt CORRUPT not a number: "n/a"
+score_06900.txt MISSING file not found
+score_06950.txt CORRUPT not a number: "n/a"
+score_07000.txt MISSING file not found
+score_07007.txt OUT_OF_RANGE score 150
+score_07050.txt CORRUPT not a number: "n/a"
+score_07100.txt MISSING file not found
+score_07150.txt CORRUPT not a number: "n/a"
+score_07200.txt MISSING file not found
+score_07207.txt OUT_OF_RANGE score 150
+score_07250.txt CORRUPT not a number: "n/a"
+score_07300.txt MISSING file not found
+score_07350.txt CORRUPT not a number: "n/a"
+score_07400.txt MISSING file not found
+score_07407.txt OUT_OF_RANGE score 150
+score_07450.txt CORRUPT not a number: "n/a"
+score_07500.txt MISSING file not found
+score_07550.txt CORRUPT not a number: "n/a"
+score_07600.txt MISSING file not found
+score_07607.txt OUT_OF_RANGE score 150
+score_07650.txt CORRUPT not a number: "n/a"
+score_07700.txt MISSING file not found
+score_07750.txt CORRUPT not a number: "n/a"
+score_07800.txt MISSING file not found
+score_07807.txt OUT_OF_RANGE score 150
+score_07850.txt CORRUPT not a number: "n/a"
+score_07900.txt MISSING file not found
+score_07950.txt CORRUPT not a number: "n/a"
+score_08000.txt MISSING file not found
+score_08007.txt OUT_OF_RANGE score 150
+score_08050.txt CORRUPT not a number: "n/a"
+score_08100.txt MISSING file not found
+score_08150.txt CORRUPT not a number: "n/a"
+score_08200.txt MISSING file not found
+score_08207.txt OUT_OF_RANGE score 150
+score_08250.txt CORRUPT not a number: "n/a"
+score_08300.txt MISSING file not found
+score_08350.txt CORRUPT not a number: "n/a"
+score_08400.txt MISSING file not found
+score_08407.txt OUT_OF_RANGE score 150
+score_08450.txt CORRUPT not a number: "n/a"
+score_08500.txt MISSING file not found
+score_08550.txt CORRUPT not a number: "n/a"
+score_08600.txt MISSING file not found
+score_08607.txt OUT_OF_RANGE score 150
+score_08650.txt CORRUPT not a number: "n/a"
+score_08700.txt MISSING file not found
+score_08750.txt CORRUPT not a number: "n/a"
+score_08800.txt MISSING file not found
+score_08807.txt OUT_OF_RANGE score 150
+score_08850.txt CORRUPT not a number: "n/a"
+score_08900.txt MISSING file not found
+score_08950.txt CORRUPT not a number: "n/a"
+score_09000.txt MISSING file not found
+score_09007.txt OUT_OF_RANGE score 150
+score_09050.txt CORRUPT not a number: "n/a"
+score_09100.txt MISSING file not found
+score_09150.txt CORRUPT not a number: "n/a"
+score_09200.txt MISSING file not found
+score_09207.txt OUT_OF_RANGE score 150
+score_09250.txt CORRUPT not a number: "n/a"
+score_09300.txt MISSING file not found
+score_09350.txt CORRUPT not a number: "n/a"
+score_09400.txt MISSING file not found
+score_09407.txt OUT_OF_RANGE score 150
+score_09450.txt CORRUPT not a number: "n/a"
+score_09500.txt MISSING file not found
+score_09550.txt CORRUPT not a number: "n/a"
+score_09600.txt MISSING file not found
+score_09607.txt OUT_OF_RANGE score 150
+score_09650.txt CORRUPT not a number: "n/a"
+score_09700.txt MISSING file not found
+score_09750.txt CORRUPT not a number: "n/a"
+score_09800.txt MISSING file not found
+score_09807.txt OUT_OF_RANGE score 150
+score_09850.txt CORRUPT not a number: "n/a"
+score_09900.txt MISSING file not found
+score_09950.txt CORRUPT not a number: "n/a"
+score_10000.txt MISSING file not found

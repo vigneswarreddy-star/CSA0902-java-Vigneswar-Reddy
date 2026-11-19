@@ -1,0 +1,7 @@
+== (1) producer-consumer, 200,000 items, mean of 5 runs
+  wait/notifyAll (TokenCounter):   5737.4 ns per item
+  ArrayBlockingQueue(5):           8572.7 ns per item
+== (2) transfers, 100,000 transfers, 4 threads, 5 accounts, mean of 5 runs
+  lock ordering:                    245.2 ns per transfer
+  tryLock with timeout + retry:    1724.3 ns per transfer, mean retries per run = 316.6
+sink=2000000

@@ -1,0 +1,52 @@
+--- b/ConverterVariants.java	2026-11-17 08:11:34.957674210 +0000
++++ a/ConverterVariants.java	2026-11-17 08:11:34.958647698 +0000
+@@ -29,12 +29,11 @@
+         final JTextField amount = new JTextField(10);
+         final JComboBox<String> target = new JComboBox<>(new String[]{"USD", "EUR"});
+         final JButton convertButton = new JButton("Convert");
+-        final JLabel result = new JLabel(" ");
+ 
+         Base(String title) {
+             super(title);
+             setLayout(new FlowLayout());
+-            add(new JLabel("INR")); add(amount); add(target); add(convertButton); add(result);
++            add(new JLabel("INR")); add(amount); add(target); add(convertButton);
+             addWindowListener(new WindowAdapter() {          // WindowAdapter: only the method we need
+                 @Override public void windowClosing(WindowEvent e) { dispose(); }
+             });
+@@ -46,9 +45,9 @@
+                 double inr = Double.parseDouble(amount.getText().trim());
+                 String currency = (String) target.getSelectedItem();
+                 String text = String.format("%.2f %s", inr * rate(currency), currency);
+-                result.setText(text);
++                JOptionPane.showMessageDialog(this, text, "Result", JOptionPane.INFORMATION_MESSAGE);
+             } catch (NumberFormatException ex) {
+-                result.setText("Invalid amount");
++                JOptionPane.showMessageDialog(this, "Invalid amount", "Error", JOptionPane.ERROR_MESSAGE);
+             }
+         }
+     }
+@@ -58,6 +57,7 @@
+         FrameStyle() {
+             super("Converter - (a) frame implements ActionListener");
+             convertButton.addActionListener(this);
++            amount.addActionListener(this);
+         }
+         @Override public void actionPerformed(ActionEvent e) { convertAndShow(); }
+     }
+@@ -68,6 +68,7 @@
+             super("Converter - (b) named inner class");
+             ConvertHandler handler = new ConvertHandler();
+             convertButton.addActionListener(handler);
++            amount.addActionListener(handler);
+         }
+         class ConvertHandler implements ActionListener {
+             @Override public void actionPerformed(ActionEvent e) { convertAndShow(); }
+@@ -82,6 +83,7 @@
+                 @Override public void actionPerformed(ActionEvent e) { convertAndShow(); }
+             };
+             convertButton.addActionListener(handler);
++            amount.addActionListener(handler);
+         }
+     }
+ 

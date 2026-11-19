@@ -1,0 +1,4 @@
+== run: java ResultProcessor data_fifo manifest_fifo.txt pool=2 latency=0 timeout=3s (limit 20 s)
+exit code=124 (124 = still running when killed: JVM never exited)
+pool=2 latency=0ms elapsed=3023 ms terminated=false complete=true
+counts {OK=3, TIMEOUT=1} total=4 sumOfOkAverages=120.0

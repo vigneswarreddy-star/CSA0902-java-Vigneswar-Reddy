@@ -1,0 +1,11 @@
+== Part A1: naive transfers (A->B and B->A at the same time)
+  DEADLOCK: 2 threads are waiting for each other
+  lock names: DeadlockDemo$Account@3b9a45b3 = account-1, DeadlockDemo$Account@7699a589 = account-2
+  transfer-A-to-B is BLOCKED waiting for DeadlockDemo$Account@7699a589 held by transfer-B-to-A
+  transfer-B-to-A is BLOCKED waiting for DeadlockDemo$Account@3b9a45b3 held by transfer-A-to-B
+
+== Part A2: the same two transfers with lock ordering
+  both finished; balances 950 + 1050 = 2000
+
+== Part A3: 20 threads, 20,000 random transfers among 5 accounts, lock ordering
+  finished in 13 ms, total money = 50000 (expected 50000)

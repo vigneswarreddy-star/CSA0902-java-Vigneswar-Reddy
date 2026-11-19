@@ -1,0 +1,13 @@
+PASS  regNo '  tn10eb1234 '
+PASS  regNo ''
+PASS  regNo 'AB-12'
+PASS  regNo 'ABCDEFGHIJKLMNOP'
+PASS  amount '2500'
+PASS  amount '10.555'
+PASS  amount ''
+PASS  amount 'abc'
+PASS  amount '0'
+PASS  amount '-5'
+PASS  amount 'NaN'
+PASS  amount '2000000'
+Passed: 12  Failed: 0

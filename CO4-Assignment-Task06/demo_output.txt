@@ -1,0 +1,20 @@
+TEST 1 normal registration
+  ACCEPTED: TEST01
+TEST 2 invalid student ID
+  REJECTED (validation): Student ID must be 1 to 20 letters or digits.
+TEST 3 invalid name
+  REJECTED (validation): Name must start with a letter and may contain only letters, spaces, dots, apostrophes and hyphens.
+TEST 4 invalid email
+  REJECTED (validation): Enter a valid email address, for example name@campus.edu.
+TEST 5 duplicate for the same event
+  REJECTED (duplicate): Student TEST01 is already registered for this event.
+TEST 6 same student, different event (allowed)
+  ACCEPTED: TEST01
+TEST 7 paging (51 students, page size 50)
+  page 1 rows = 50, hasNext = true
+  page 2 rows = 2, hasNext = false
+TEST 8 CSV export for Music Night
+  rows written = 52 (file /tmp/final/Task06/registrations_export_test.csv)
+  first two lines of file:
+    ID,Event,Student ID,Name,Email,Registered at
+    "100056","Music Night","TEST01","Asha Kumar","asha@campus.edu","2026-11-17 08:04:44.0"

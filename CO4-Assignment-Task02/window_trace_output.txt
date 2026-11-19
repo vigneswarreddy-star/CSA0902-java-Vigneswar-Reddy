@@ -1,0 +1,8 @@
+A setVisible(true) called
+1 windowOpened
+2 windowActivated
+   paint()
+B user closes window: simulate close event
+3 windowClosing (confirm here)
+5 windowDeactivated
+4 windowClosed

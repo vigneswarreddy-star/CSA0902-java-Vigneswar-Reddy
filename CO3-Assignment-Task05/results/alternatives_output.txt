@@ -1,0 +1,10 @@
+seats = 100 (mean of 5 runs, ns per booking attempt)
+  synchronized method                 398.3
+  AtomicBoolean[] CAS                 254.5
+  ReentrantLock                       532.1
+  ConcurrentHashMap putIfAbsent       475.3
+seats = 10000 (mean of 5 runs, ns per booking attempt)
+  synchronized method                 148.6
+  AtomicBoolean[] CAS                 168.9
+  ReentrantLock                       330.2
+  ConcurrentHashMap putIfAbsent      1035.8

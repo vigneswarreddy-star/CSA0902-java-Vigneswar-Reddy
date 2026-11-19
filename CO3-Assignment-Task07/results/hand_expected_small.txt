@@ -1,0 +1,1 @@
+Hand-expected: OK=5 (s01 avg 80.0, s02 30.0, s04 50.0, s08 20.0, s09 100.0; sum 280.0), CORRUPT=3 (s03 letter, s07 3 lines, s10 '8x'), MISSING=1 (s06), OUT_OF_RANGE=1 (s05)

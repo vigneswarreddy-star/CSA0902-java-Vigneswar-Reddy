@@ -1,0 +1,11 @@
+run 1: tokens collected value sum = 50000 (expected 50000)
+run 2: tokens collected value sum = 50000 (expected 50000)
+run 3: tokens collected value sum = 50000 (expected 50000)
+run 4: tokens collected value sum = 50000 (expected 50000)
+run 5: tokens collected value sum = 49999 (expected 50000)  <-- WRONG
+run 6: tokens collected value sum = 50000 (expected 50000)
+run 7: tokens collected value sum = 50000 (expected 50000)
+run 8: tokens collected value sum = 50000 (expected 50000)
+run 9: tokens collected value sum = 50000 (expected 50000)
+run 10: tokens collected value sum = 50000 (expected 50000)
+TokenCounterIf: wrong runs = 1 of 10

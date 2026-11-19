@@ -1,0 +1,8 @@
+stream parallelism=1 latency=0ms ok=9750 total=10000 elapsed=293 ms
+stream parallelism=2 latency=0ms ok=9750 total=10000 elapsed=267 ms
+stream parallelism=4 latency=0ms ok=9750 total=10000 elapsed=287 ms
+stream parallelism=8 latency=0ms ok=9750 total=10000 elapsed=358 ms
+stream parallelism=1 latency=1ms ok=9750 total=10000 elapsed=11587 ms
+stream parallelism=2 latency=1ms ok=9750 total=10000 elapsed=5858 ms
+stream parallelism=4 latency=1ms ok=9750 total=10000 elapsed=2936 ms
+stream parallelism=8 latency=1ms ok=9750 total=10000 elapsed=1692 ms

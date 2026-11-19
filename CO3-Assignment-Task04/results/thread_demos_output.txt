@@ -1,0 +1,27 @@
+== 1. run() vs start()
+  body runs in: main
+  body runs in: worker
+
+== 2. life cycle
+  after new Thread:      NEW alive=false
+  while sleeping:        TIMED_WAITING alive=true
+  after join:            TERMINATED alive=false
+
+== 3. priorities (6 runs each: default vs S1=MAX_PRIORITY, others=MIN_PRIORITY)
+  default run 1: first to finish = S2
+  default run 2: first to finish = S4
+  default run 3: first to finish = S4
+  default run 4: first to finish = S1
+  default run 5: first to finish = S2
+  default run 6: first to finish = S1
+  priorities run 1: first to finish = S1
+  priorities run 2: first to finish = S1
+  priorities run 3: first to finish = S1
+  priorities run 4: first to finish = S1
+  priorities run 5: first to finish = S1
+  priorities run 6: first to finish = S1
+
+== 4. daemon station
+  daemon tick 4
+  worker (non-daemon) finished
+  main ends; daemon isAlive=true (JVM exits without waiting for it)

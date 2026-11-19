@@ -1,0 +1,2 @@
+thread-per-file latency=0ms threadsStarted=10000 outcomes=10000 ok=9750 peakThreads=19 elapsed=2276 ms
+thread-per-file latency=1ms threadsStarted=10000 outcomes=10000 ok=9750 peakThreads=37 elapsed=2344 ms

@@ -1,0 +1,1 @@
+     intx ThreadStackSize                          = 1024                                   {pd product} {default}

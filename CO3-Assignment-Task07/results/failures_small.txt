@@ -1,0 +1,5 @@
+s03.txt CORRUPT not a number: "n/a"
+s05.txt OUT_OF_RANGE score 101
+s06.txt MISSING file not found
+s07.txt CORRUPT expected 5 scores, found 3
+s10.txt CORRUPT not a number: "8x"
